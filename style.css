@@ -6,6 +6,9 @@ body{
     font-family: Poppins;
     margin: 0;
 }
+/*---------------------------
+     Navigation Area 
+---------------------------*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -20,6 +23,10 @@ nav {
     color: white;
     margin-right: 36px;
 }
+
+/*---------------------------
+        Header Area 
+---------------------------*/
 
 .header{
     background-color: #2D25A0;
@@ -53,6 +60,9 @@ nav {
     transform:scaleX(1.5) rotate(360deg);
     transition: transform 4s ease-in-out;
 }
+/*---------------------------
+        Main Area 
+---------------------------*/
 main{
     display: flex;
     flex-direction: column;
@@ -77,6 +87,9 @@ main{
     font-size: 28px;
     font-weight: 700;
 }
+/*---------------------------
+     Special Segment 
+---------------------------*/
 .special-segment h1{
     background-color: cornflowerblue;
     text-align: center;
@@ -115,6 +128,9 @@ hr{
     margin-top: 40px;
     border: 1px solid gray;
 }
+/*---------------------------
+     Footer Area 
+---------------------------*/
 footer img{
     width: 485px;
 }
@@ -134,7 +150,9 @@ footer{
 footer p{
     font-size: 18px;
 }
-
+/* ----------------------
+    For small devices 
+-----------------------*/
 @media only screen and (max-width:688px) {
     .nav-left{
         display: none;
@@ -200,7 +218,9 @@ footer p{
         padding-left: 30px;
     }
 }
-
+/* ----------------------
+    For Tablet devices 
+-----------------------*/
 @media only screen and (min-width:688px) and (max-width:992px){
     .nav-left{
         display: none;
